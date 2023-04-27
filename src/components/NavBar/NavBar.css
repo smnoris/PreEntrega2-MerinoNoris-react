@@ -1,0 +1,16 @@
+header {
+    color: #fbe6e5;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    background: linear-gradient(to left, #ed2323, #281d2d);
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer; 
+}
