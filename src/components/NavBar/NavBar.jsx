@@ -1,22 +1,28 @@
+import CartWidget from "../CartWidget/CartWidget"
 import './NavBar.css'
-import CartWidget from '../CartWidget/CartWidget'
+import { NavLink, Link } from "react-router-dom";
 
 const NavBar = () => {
+  const imgLogo = '../png/SAFI FURRA.png';
   return (
     <header>
-        <h1>Mi tiendita del horror.</h1>
+      <Link to={"/"}>
+        <img className="imgLogo" src={imgLogo} alt="Logo Tienda" />
+      </Link>
+      <ul>
+        <li>
+          <NavLink to={`/`}>Home</NavLink>
+        </li>
 
-        <nav>
-            <ul>
-                <li>Sobre mi</li>
-                <li>Galeria</li>                
-                <li>Contacto</li>
-                <li>Tienda</li>
-            </ul>
-        </nav>
+        <li>
+          <NavLink to={`/categoria/2`}>Digital</NavLink>
+        </li>
 
-        <CartWidget />
-
+        <li>
+          <NavLink to={`/categoria/3`} >Tradicional</NavLink>
+        </li>
+      </ul>
+      <CartWidget />
     </header>
   )
 }

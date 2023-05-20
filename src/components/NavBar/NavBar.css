@@ -7,10 +7,26 @@ header {
     background: linear-gradient(to left, #ed2323, #281d2d);
     border-bottom: 1px solid black;
     border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 li {
     display: inline-block;
     margin: 1rem;
     cursor: pointer; 
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imgLogo {
+    width: 75px;
+    border-radius: 35px;
+    border: 5px solid #fbe6e5;
+}
+
+a {
+    color:#fbe6e5;
+    font-weight: bold;
 }
