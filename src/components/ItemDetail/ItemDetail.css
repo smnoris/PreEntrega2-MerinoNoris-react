@@ -2,8 +2,21 @@
     text-align: center;
     border: 1px solid #e3e1e1;
     margin: 3rem;
+    background-image: linear-gradient(to bottom, #ea8533 80%, #281d2d);    
+    border-radius: 50px;
+    padding: 30px;
 }
 
 img {
+    border-radius: 20px;
     width: 50vw;
+}
+
+.btn-end-shop {
+    font-size: 2rem;
+}
+
+.descrip-item {
+    font-size: .8rem;
+    margin: 10px;
 }

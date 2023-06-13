@@ -1,0 +1,24 @@
+button {
+    background: linear-gradient(to top, #ed8533 2%, #fbe6e5);
+    border-radius: 15px;
+    border: 2px solid #fbe6e5;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to top, #fbe6e5, #ed8533 2%);
+}
+
+p {
+    color: #fbe6e5;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+}

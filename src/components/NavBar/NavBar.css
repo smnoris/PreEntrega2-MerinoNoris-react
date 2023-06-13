@@ -23,10 +23,11 @@ li {
 .imgLogo {
     width: 75px;
     border-radius: 35px;
-    border: 5px solid #fbe6e5;
+    border: 3px solid #fbe6e5;
 }
 
 a {
     color:#fbe6e5;
-    font-weight: bold;
+    font-weight: 1rem;    
+    text-decoration: none;
 }
